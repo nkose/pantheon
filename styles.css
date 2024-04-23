@@ -1,0 +1,19 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    color: #141903;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #141903;
+    text-align: center;
+}
+
+body {
+    background-color: #f5f6f2;
+}
