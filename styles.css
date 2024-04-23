@@ -1,6 +1,7 @@
 body {
-    background: url('PantheonBackground.webp') no-repeat center center;
+    background: url('./PantheonBackground.webp') no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
     color: #333;
     font-family: 'Arial', sans-serif;
     padding: 20px;
@@ -10,23 +11,23 @@ body {
     text-align: center;
     padding: 20px;
     border-bottom: 2px solid #ccc;
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white for readability */
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .header h1,
 .header h2,
 .header p {
-    font-family: 'Garamond', 'Georgia', serif;
+    font-family: 'Garamond', 'Georgia', serif; /* Ensure header uses the correct font */
 }
 
 .content {
     padding: 20px;
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white for readability */
     margin-top: 20px;
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .content h3 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Garamond', 'Georgia', serif; /* Correcting the font for content headers */
     font-size: 1.2em;
     color: #006600;
     border-bottom: 1px solid #ccc;
